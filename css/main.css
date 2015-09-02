@@ -1,0 +1,242 @@
+/************GLOBAL********************/
+
+html,
+body {
+    min-height: 100%
+}
+
+body {
+    background-color: #000000;
+    background-image: url('../img/bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.layout {
+    background-color: white;
+    border-radius: 10px;
+    min-width: 990px;
+}
+
+/************HEADER***************/
+
+.logo {
+    background-image: url('../img/logo_main.jpg');
+    height: 138px;
+    width: 343px;
+    display: inline-block;
+}
+
+.login {
+    background-image: url('../img/login.jpg');
+    height: 52px;
+    width: 179px;
+    display: inline-block;
+    float: right;
+}
+
+.white_link_in_header {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.header_text_login {
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+.header_text_register {
+    position: relative;
+    top: -2px;
+    left: 60px;
+    font-size: 80%;
+}
+
+.search_form {
+    clear: both;
+    float: right;
+    display: inline-block;
+    position: relative;
+    left: -60px;
+    top: 28px;
+    border-radius: 25px;
+    background-color: #ffddc1;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.search_field:hover {
+    border: 1px solid #fa7609;
+}
+
+.search_field {
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    outline: none;
+    border: none;
+    border: 1px solid #f8b67f;
+}
+
+.search_button {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    outline: none;
+    border: 1px solid #f8b67f;
+    background: linear-gradient(to top, #ffb856, #ffd53b);
+}
+
+.search_button:hover {
+    background: linear-gradient(to top, #ffd53b, #ffb856);
+}
+
+.outer_container_menu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 990px;
+    height: 50px;
+    position: relative;
+    left: 90px;
+    background-color: #ffdebf;
+    border: 5px solid #f2eeef;
+    border-radius: 110px;
+}
+
+@media only screen and (max-width: 1199px) {
+    
+.outer_container_menu {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    width: 970px;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    background-color: #ffdebf;
+    border: 5px solid #f2eeef;
+    border-radius: 110px;
+    }
+    
+.menu_nav {
+    position: relative;
+    left: -10px;
+    }
+    
+}
+
+.inner_container_menu {
+    align-self: center;
+    margin: auto;
+}
+
+.menu_nav {
+    align-self: center;
+    margin: auto;
+}
+
+.menu_nav li {
+    height: 40px;
+}
+
+.menu_nav li:hover {
+    background: linear-gradient(to top, #ffd53b, #ffb856);
+}
+
+.link_in_menu {
+    color: #320600;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    top: -3px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.divider-vertical {
+    height: 40px;
+    margin: 0 0px;
+    border-right: 1px solid #ffe9c7;
+    border-left: 1px solid #eccbaa;
+}
+
+/************CONTENT****************/
+
+.left-sidebar {
+    background-image: url('../img/left_sidebar.png');
+    width: 207px;
+    height: 466px;
+    position: relative;
+    left: -10px;
+}
+
+.top-material {
+    min-height: 466px;
+    position: relative;
+    left: 30px;
+    background: #ccc;
+    margin-bottom: 10px;
+}
+
+.left_down_sidebar {
+    background-image: url('../img/left_down_sidebar.jpg');
+    height: 190px;
+    width: 190px;
+}
+
+.middle_down_sidebar {
+    background-image: url('../img/middle_down_sidebar.jpg');
+    height: 198px;
+    width: 182px;
+}
+
+.right_down_sidebar {
+    background-image: url('../img/right_down_sidebar.jpg');
+    height: 181px;
+    width: 392px;
+    float: right;
+}
+
+/************FOOTER****************/
+
+.footer {
+    margin-top: 10px;
+    background-color: #221f32;
+    height: 100px;
+}
+
+.footer_logo {
+    background-image: url('../img/footer_logo.jpg');
+    height: 70px;
+    width: 70px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.footer_text {
+    color: aliceblue;
+}
+
+.white_link_in_footer {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.footer_left_text_group {
+    position: relative;
+    top: 40px;
+}
+
+.footer_right_text_group {
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+}
+.strange_hack {
+    position: relative; 
+}
